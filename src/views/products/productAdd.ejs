@@ -1,0 +1,111 @@
+<!--Include Head-->
+<%- include('../partials/head')%>
+<!-- HEADER -->
+<%- include('../partials/header')%>
+
+
+
+<main>
+<!-- CARGA  -->
+  <div class="container">
+    <nav class="col-12 py-3 my-3">
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-altas" role="tab" aria-controls="nav-altas" aria-selected="true">Altas</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-bajas" role="tab" aria-controls="nav-bajas" aria-selected="false">Bajas</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-edit" role="tab" aria-controls="nav-edit" aria-selected="false">Modificaciones</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-altas" role="tabpanel" aria-labelledby="ALTAS">
+        <!--Formulario de carga-->
+        <div class="container py-3 my-3">
+          <div class="col-12" style=" background-color: #ffffff; border-radius: 8px;">
+              <h2 style="text-decoration: underline;">Carga productos:</h2>
+              <form action="/products/create" enctype="multipart/form-data" method="POST" name="formCarga" class="formProduct">
+                  <div class="form-row justify-content-center" onload="resetSelection()">
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="name" class="form-label">Nombre del producto:</label>
+                          <input type="text" id="name" name="name" maxlength="50" class="form-input name product" required>
+                          <small class="errorName error">El NOMBRE es obligatorio, y de mínimo 5 caracteres</small>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="price" class="form-label">Precio ($):</label>
+                          <input type="number" id="price" name="price" max="999999" class="form-input price product" required>
+                          <small class="errorPrice error">El PRECIO es obligatorio y no puede ser 0</small>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="discount" class="form-label">Descuento (%):</label>
+                          <input type="number" id="discount" name="discount" min="0" max="99" class="form-input discount product" value="0">
+                          <small class="errorDiscount error">El DESCUENTO no debe superar el 99%</small>
+                      </div>
+                      <div class="col-12 col-md-6">
+                          <label for="stock" class="form-label">Cantidad:</label>
+                          <input type="number" id="stock" name="stock" min="1" max="999" class="form-input stock product" required>
+                          <small class="errorStock error">El STOCK debe estar entre 1 y 999</small>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="serialNumber" class="form-label">Serial del producto:</label>
+                          <input type="number" id="serialNumber" name="serialNumber" class="form-input serialNumber product" required>
+                          <small class="errorSerialNumber error">El SERIAL es obligatorio</small>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label>Producto destacado:</label>
+                          <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="destacado" id="destacado1" value=1>
+                              <label class="form-check-label" for="destacado1">Si</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="destacado" id="destacado2" value=0 checked>
+                              <label class="form-check-label" for="destacado2">No</label>
+                            </div>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="description" class="form-label">Descripcion del producto:</label><br>
+                          <textarea name="description" id="description" maxlength="150" cols="30" rows="4" class="form-input description product" required></textarea>
+                          <small class="errorDescription error">La DESCRIPCIÓN debe tener un minimo de 20 caracteres</small>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="category" class="form-label">Categoría:</label>
+                          <select name="category" id="category" class="custom-select" style="width: 190px" required>
+                            <option value="" disabled selected>Elegir</option>
+                            <% for (category of categories) {  %>
+                            <option value="<%=category.id%>"><%= category.name  %> </option>
+                            <% } %>
+                          </select>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <label for="subcategory"class="form-label">Subcategoría:</label>
+                          <select name="subcategory" id="subcategory" class="custom-select" style="width: 190px">
+                            <option value="" selected>No aplica</option>
+                            <% for (subcategory of subcategories) {  %>
+                              <option value="<%= subcategory.id %>"><%= subcategory.name  %> </option>
+                            <% } %>
+                          </select>
+                      </div>
+                      <div class="col-12 col-md-6 form-group">
+                          <div class="custom-file">
+                              <input type="file" class="custom-file-input image product" name="image"  id="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" multiple required>
+                              <label class="custom-file-label" for="image">Elegir imagenes (MAX 3)</label>
+                              <small class="errorImage error"></small>
+                          </div>
+                      </div>
+                      <div class="col-12 form-group">
+                          <button type="submit" class="btn btn-dark">Cargar producto</button>
+                      </div>
+                      <small>(Para cancelar la operacion simplemente salir de la pagina)</small>
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-bajas" role="tabpanel" aria-labelledby="BAJAS"><h1 style="color: white;">Bajas</h1></div>
+      <div class="tab-pane fade" id="nav-edit" role="tabpanel" aria-labelledby="MODS"><h1 style="color: white;">Modificaciones</h1></div>
+    </div>
+  </div>
+<!-- /CARGA -->
+
+</main>
+
+
+    <%- include('../partials/footer') %>
+
