@@ -1,62 +1,62 @@
-# iPowerTosh - Tu Destino Apple
+# MacMasters - Tu moto, tu sueño
 
 
 ## Descripción de la Oferta
 
-iPowerTosh es tu destino exclusivo para todos los productos y accesorios Apple de alta calidad. Ofrecemos una amplia gama de productos Apple, incluyendo iPhones, iPads, MacBooks, iMacs, Apple Watch y mucho más. Además, también proporcionamos una selección de accesorios originales y de terceros que complementan tus dispositivos Apple, como fundas, cargadores, auriculares y más.
+**MacMasters** es tu destino principal para la compra de motocicletas de alta calidad y sus accesorios. Ofrecemos una amplia gama de motocicletas, desde deportivas hasta cruiser, incluyendo modelos de marcas reconocidas como Yamaha, Honda, Suzuki, y Kawasaki. Además, proporcionamos una selección de accesorios y equipo, como cascos, chaquetas, guantes, y piezas de repuesto para que tu experiencia en la carretera sea segura y emocionante.
 
-Nuestro objetivo es brindar a nuestros clientes una experiencia de compra única y conveniente, donde puedan encontrar todos los productos y accesorios Apple que deseen en un solo lugar. Trabajamos en estrecha colaboración con Apple para garantizar que nuestros productos sean auténticos y de la más alta calidad.
+Nuestro objetivo es brindar a nuestros clientes una experiencia de compra única y cómoda, donde puedan encontrar la motocicleta de sus sueños y todos los accesorios necesarios en un solo lugar. Trabajamos en estrecha colaboración con los principales fabricantes para garantizar que nuestros productos sean auténticos y de la más alta calidad.
 
 ## Público Objetivo
 
-iPowerTosh está dirigido a entusiastas de Apple y amantes de la tecnología que buscan los últimos productos Apple y accesorios de alta calidad. Nuestro público objetivo incluye:
+**MacMasters** está dirigido a todos los amantes de las motocicletas que buscan calidad y variedad en un solo lugar. Nuestro público objetivo incluye:
 
-- **Usuarios de Apple**: Personas que ya son parte del ecosistema Apple y desean actualizar o expandir su colección de dispositivos y accesorios.
+- **Motociclistas Experimentados**: Personas que ya son parte de la comunidad motociclista y buscan actualizar su motocicleta o encontrar accesorios de primera calidad.
 
-- **Nuevos Usuarios de Apple**: Aquellos que están considerando hacer la transición al mundo Apple y buscan una fuente confiable para obtener sus primeros dispositivos y accesorios.
+- **Nuevos Motociclistas**: Aquellos que están considerando iniciarse en el mundo de las motocicletas y buscan una fuente confiable para obtener su primera motocicleta y el equipo necesario.
 
-- **Profesionales Creativos**: Diseñadores, artistas, fotógrafos y profesionales que dependen de productos Apple para su trabajo creativo y necesitan los dispositivos más potentes y las herramientas adecuadas.
+- **Aventureros**: Motociclistas que disfrutan de los viajes largos y buscan motocicletas y accesorios que les ofrezcan confort y durabilidad en sus aventuras por carretera.
 
-- **Estudiantes y Educadores**: Personas en busca de herramientas educativas y de productividad de alta calidad que Apple ofrece.
+- **Profesionales del Transporte**: Aquellos que utilizan motocicletas como herramienta de trabajo y necesitan vehículos y accesorios robustos y confiables.
 
 ## Equipo
 
-Nuestro equipo en iPowerTosh está compuesto por apasionados amantes de la tecnología y expertos en productos Apple. Cada uno de nosotros comparte un profundo amor por la marca y la tecnología que Apple representa. Estamos dedicados a proporcionar a nuestros clientes la mejor experiencia de compra posible y garantizar que encuentren el producto perfecto para sus necesidades.
+Nuestro equipo en **MacMasters** está compuesto por entusiastas de las motocicletas y expertos en la industria. Todos compartimos una profunda pasión por las motocicletas y estamos dedicados a proporcionar a nuestros clientes la mejor experiencia de compra posible, ayudándoles a encontrar la motocicleta y los accesorios perfectos para sus necesidades.
 
 **Manuel León - Fundador y CEO**: 
-Soy un estudiante de ingeniería de software y un apasionado de la tecnología. He sido un usuario de Apple durante más de 5 años y he visto de primera mano cómo Apple ha cambiado la forma en que interactuamos con la tecnología. Mi objetivo es proporcionar a nuestros clientes una experiencia de compra única y conveniente, donde puedan encontrar todos los productos y accesorios Apple que deseen en un solo lugar.
+Soy un apasionado de las motocicletas y un conocedor de la industria. He estado inmerso en el mundo del motociclismo durante más de 10 años y entiendo lo que los motociclistas buscan en una tienda de confianza. Mi objetivo es crear un espacio donde los amantes de las motos puedan encontrar todo lo que necesitan para disfrutar al máximo de cada viaje.
 
 ## Política de Devoluciones
-Disponemos de un plazo para devoluciones de a partir de la fecha en que la paquetería entregó tu pedido en el domicilio indicado al realizar la compra. Debes notificar acerca de la devolución antes de que se cumpla la fecha tope de la garantía, el motivo del mismo. La devolución se llevará a través de correo electronico:
 
--Solicitar la devolución dentro del plazo de devolución por correo electrónico. Especificando el motivo de la devolución.
+Ofrecemos un plazo de devolución a partir de la fecha en que la paquetería entregó tu pedido en el domicilio indicado al realizar la compra. Debes notificar acerca de la devolución antes de que se cumpla la fecha tope de la garantía y especificar el motivo del mismo. La devolución se llevará a cabo a través de correo electrónico:
+
+- Solicita la devolución dentro del plazo por correo electrónico, especificando el motivo de la devolución.
 
 ## Referencias:
-### Lista de 5 páginas que venden productos de Apple como inspiración para un e-commerce:
+### Lista de 5 páginas que venden motocicletas como inspiración para un e-commerce:
 
-1. **Apple Online Store - Apple (ES)**
-   - **Motivo para inspirarse**: Tienda oficial con experiencia de usuario refinada, opciones de financiación, promociones exclusivas y sistema de trade-in para dispositivos antiguos. Presentación impecable de productos.
-   - **Fuente**: [Apple Online Store](https://www.apple.com/es/shop)
+1. **Revzilla (USA)**
+   - **Motivo para inspirarse**: Amplia selección de motocicletas y accesorios, excelente atención al cliente y detalladas descripciones de productos.
+   - **Fuente**: [Revzilla](https://www.revzilla.com)
 
-2. **Mac Center Apple Premium Partner (Perú)**
-   - **Motivo para inspirarse**: Enfoque en financiamiento flexible y entregas a nivel nacional. Atención al cliente y soporte técnico destacados.
-   - **Fuente**: [Mac Center Perú](https://www.mac-center.com.pe)
+2. **BikeBandit (USA)**
+   - **Motivo para inspirarse**: Enfoque en piezas de repuesto y accesorios con una fácil navegación y opciones de financiamiento.
+   - **Fuente**: [BikeBandit](https://www.bikebandit.com)
 
-3. **Maxim Store (Argentina)**
-   - **Motivo para inspirarse**: Apple Premium Reseller con amplia gama de productos Apple. Enfoque en experiencia del cliente, claridad en términos y condiciones y facilidad de compra.
-   - **Fuente**: [Maxim Store](https://www.maximstore.com)
+3. **Motocard (España)**
+   - **Motivo para inspirarse**: Especialización en equipo y accesorios para motociclistas, con un enfoque en la seguridad y el rendimiento.
+   - **Fuente**: [Motocard](https://www.motocard.com)
 
-4. **Distribuidores oficiales y autorizados por Apple**
-   - **Motivo para inspirarse**: Incluye tiendas como Fnac o Apple Shop dentro de grandes superficies, autorizados por Apple y mantienen altos estándares de calidad y servicio al cliente.
-   - **Fuente**: [La Manzana Mordida](https://www.lamanzanamordida.net)
+4. **Cycle Gear (USA)**
+   - **Motivo para inspirarse**: Tienda popular con un enfoque en ropa y accesorios, ofreciendo promociones exclusivas y un programa de lealtad.
+   - **Fuente**: [Cycle Gear](https://www.cyclegear.com)
 
-5. **Tiendas en Estados Unidos (Best Buy, Amazon USA, Target, Walmart)**
-   - **Motivo para inspirarse**: Ofrecen una amplia variedad de productos Apple, ofertas competitivas y programas de lealtad. Buen manejo de la diversidad de productos, promociones y logística.
-   - **Fuente**: [MisterShopUSA](https://www.mistershopusa.com)
+5. **Motorcycle Superstore (USA)**
+   - **Motivo para inspirarse**: Ofrece una gran variedad de motocicletas, accesorios y equipo, con un enfoque en la personalización y la satisfacción del cliente.
+   - **Fuente**: [Motorcycle Superstore](https://www.motorcyclesuperstore.com)
+
+---
+
   
 
      ### Enlace al Tablero de trabajo -> 
-     
-
-
-**En iPowerTosh, estamos comprometidos a ser tu destino número uno para todos tus productos y accesorios Apple. ¡Esperamos poder servirte pronto!**
