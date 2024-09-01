@@ -94,9 +94,9 @@ CREATE TABLE `providers` (
 
 
 INSERT INTO `providers` (`id`, `company`, `product_id`, `address`, `contact_number`, `createdAt`, `updatedAt`) VALUES
-(1, 'UnlimitedUSA', 2, '518  Saints Alley, Tampa, FL.', 813491738, '2024-12-08 22:34:17', '2024-12-08 22:34:17'),
-(2, 'Criollas Argilla', NULL, '742 Evergreen Terrace, Springfield', 1555576684, '2024-12-08 22:36:49', '2024-12-08 22:36:49'),
-(3, 'Viscusso & Co.', 3, 'P. Sherman, calle Wallaby, 42, Sydney', 1778123668, '2024-12-08 22:39:05', '2024-12-08 22:39:05');
+(1, 'Kaizen motors', 2, 'PANAMÁ, CALLE 45 SAN FRANCISCO', 813491738, '2024-12-08 22:34:17', '2024-12-08 22:34:17'),
+(2, 'KAWASAKI PA', NULL, 'COCLÉ, PANAMÁ CUIDAD DE ONTARIO', 1555576684, '2024-12-08 22:36:49', '2024-12-08 22:36:49'),
+(3, 'Suzuki inc.', 3, 'SAGRADA PROVINCIA DE CHARMINTELER', 1778123668, '2024-12-08 22:39:05', '2024-12-08 22:39:05');
 
 
 CREATE TABLE `users` (
@@ -113,9 +113,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `users` (`id`, `email`, `pass`, `firstName`, `lastName`, `avatar`, `rating`, `isAdmin`, `createdAt`, `updatedAt`) VALUES
-(3, 'eabramzon@gmail.com', '$2b$10$nuLyZBeF/bEPHN69IMvtu.J7/QQcuoqq8QgUxgyl3HS4dJR1p0GS.', 'Enrique', 'Abramzon', 'avatar-1595275058311.jpg', NULL, 1, '2020-07-01 19:23:06', '2020-07-20 19:57:38'),
-(4, 'nahuel.daneri@outlook.com', '$2b$10$8uW9Z/WHuzlL5qhew41vVujChrGT7wsM.xRiYFhOZxQvf7MbpHIEm', 'Nahuel', 'Daneri', 'avatar-1595437615155.jpg', NULL, 1, '2020-07-22 16:49:59', '2020-07-22 17:06:55'),
-(5, 'reviewer@gmail.com', '$2b$10$VQClw3zFNwUm3v0FD2EmPOEvaLHfVxtMbIxI8ofI5zpFeXAuU1Pcq', 'Mati', 'Santi', 'avatar-1595275773878.JPG', NULL, 1, '2020-07-20 20:09:34', '2020-07-20 20:09:34');
+(5, 'barfoo@gmail.com', 'passWordRoot1', 'Manuel', 'Leonard', '/motos/r1.png', NULL, 1, '2024-07-20 20:09:34', '2024-07-20 20:09:34');
 
 
 ALTER TABLE `articles`
