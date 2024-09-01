@@ -7,6 +7,8 @@
 
 Nuestro objetivo es brindar a nuestros clientes una experiencia de compra única y cómoda, donde puedan encontrar la motocicleta de sus sueños y todos los accesorios necesarios en un solo lugar. Trabajamos en estrecha colaboración con los principales fabricantes para garantizar que nuestros productos sean auténticos y de la más alta calidad.
 
+NOTA: PARA ACCEDER AL DASHBOARD DE ADMINISTRADOR ESTAS SON LAS CREDENCIALES : barfoo@gmail.com, passWordRoot1
+
 ## Público Objetivo
 
 **MacMasters** está dirigido a todos los amantes de las motocicletas que buscan calidad y variedad en un solo lugar. Nuestro público objetivo incluye:
