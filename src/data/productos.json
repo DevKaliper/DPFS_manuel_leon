@@ -1,0 +1,84 @@
+[
+ {
+  "id": 1,
+  "name": "Yamaha r1",
+  "price": 100000,
+  "discount": 25,
+  "stock":2,
+  "category": "Super deportivas",
+  "subCategory": "",
+  "description": " Yamaha r1 2021 color a eleccion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "image": [
+   "yamaha1.jpg",
+   "yamaha2.jpg"
+  ],
+  "destacado": true,
+  "serialNumber": ""
+ },
+ {
+  "id": 2,
+  "name": "Kawasaki ninja",
+  "price": 80000,
+  "discount": 20,
+  "stock":3,
+  "category": "Super deportivas",
+  "subCategory": "",
+  "description": " Kawasaki ninja 2021 color a eleccion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "image": [
+   "kawasaki1.jpg",
+   "kawasaki2.jpg"
+  ],
+  "destacado": true,
+  "serialNumber": ""
+ },
+ {
+  "id": 3,
+  "name": "Suzuki gsxr",
+  "price": 75000,
+  "discount": 15,
+  "stock":4,
+  "category": "Super deportivas",
+  "subCategory": "",
+  "description": " Suzuki gsxr 2021 color a eleccion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "image": [
+   "suzuki1.jpg",
+   "suzuki2.jpg"
+  ],
+  "destacado": true,
+  "serialNumber": ""
+ },
+ {
+  "id": 4,
+  "name": "Honda cbr",
+  "price": 70000,
+  "discount": 10,
+  "stock":5,
+  "category": "Super deportivas",
+  "subCategory": "",
+  "description": " Honda cbr 2021 color a eleccion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "image": [
+   "honda1.jpg",
+   "honda2.jpg"
+  ],
+  "destacado": true,
+  "serialNumber": ""
+ },
+ {
+  "id": 5,
+  "name": "Ducati panigale",
+  "price": 120000,
+  "discount": 30,
+  "stock":1,
+  "category": "Super deportivas",
+    "subCategory": "",
+    "description": " Ducati panigale 2021 color a eleccion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+    "image": [
+        "ducati1.jpg",
+        "ducati2.jpg"
+        ],
+        "destacado": true,
+        "serialNumber": ""
+
+    }
+]
