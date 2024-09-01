@@ -1,0 +1,65 @@
+<!-- HEAD -->
+<%- include('../partials/head') %>
+<!-- HEADER -->
+<%- include('../partials/header') %>
+  <section class="container">
+    <div class="row" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+      <div class="col-12 col-sm-8 ">
+        <strong><h2 style="text-decoration: underline; color: white;" class="text-black-50"><i class="far fa-play-circle"></i>Registro:</h2></strong>
+        <div class="error"></div>
+        <form action="/users/register" enctype="multipart/form-data" name="formUserAdd" method="post" class=" text-center formUser">
+          <div class="form-group col-sm-10">
+            <label for="firstName" class="control-label text-light">Nombre:</label>
+            <input type="text" class="form-control firstName user" id="firstName" name="firstName" placeholder="Nombre" required>
+            <small class="errorFirstName error">El NOMBRE es obligatorio, debe contener letras y debe ser mayor a 2 caracteres.</small>
+          </div>
+          <div class="form-group col-sm-10">
+            <label for="lastName" class="control-label text-light">Apellido:</label>
+            <input type="text" class="form-control lastName user" id="lastName" name="lastName" placeholder="Apellido" required>
+            <small class="errorLastName error">El APELLIDO es obligatorio, debe contener letras y debe ser mayor a 2 caracteres.</small>
+          </div>
+          <div class="form-group col-sm-10">
+            <label for="email" class="control-label text-light">Email:</label>
+            <input type="email" class="form-control email user" id="email" name="email" placeholder="example@example.com" required>
+            <small class="errorEmail error">El EMAIL es obligatorio, no debe contener espacios, debe ser menor a 35 caracteres y formato válido.</small>
+          </div>
+          <div class="form-group col-sm-10">
+            <label for="pass" class="control-label text-light">Contraseña:</label>
+            <input type="password" class="form-control pass user" id="pass" name="pass" placeholder="Contraseña" required>
+            <small class="errorPass error">La CONTRASEÑA no debe tener espacios, contener minimo 8 caracteres y al menos una mayuscula.</small>
+            <small class="text-muted"> Tu contraseña debe contener 8-20 carácteres de largo con al menos una mayúscula. No incluir: espacios, carácteres especiales, emojis.</small>
+          </div>
+          <div class="form-group col-sm-10">
+            <label for="repass" class="control-label text-light">Confirmar contraseña:</label>
+            <input type="password" class="form-control repass user" id="repass" name="repass" placeholder="Confirmar contraseña" required>
+            <small class="errorRepass error">Debe coincidir con tu CONTRASEÑA.</small>
+          </div>
+          <div class="col-12 col-md-6 form-group">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input avatar user" name="avatar" max="1" id="avatar" accept="image/x-png,image/gif,image/jpeg" required>
+                <label class="custom-file-label" for="avatar">Elegir avatar</label>
+                <small class="errorAvatar error"></small>
+            </div>
+          </div>
+          <div class="form-group d-flex justify-content-between">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" id="enviar" name="enviar_btn" value="envio"  class="btn btn-secondary btn-sm w-100 my-3">Registrarme</button>
+              <div class="text-center border rounded">
+                <p class="text-light"><strong>O también podes ingresar con:</strong></p>
+                <!--Facebook-->
+                <button type="button" class="btn btn-fb text-light"><i class="fab fa-facebook-f pr-1"></i>
+                  Facebook</button>
+                <!--Google-->
+                <button type="button" class="btn btn-gplus text-light"><i class="fab fa-google-plus-g pr-1"></i> Google</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--Frase-->
+
+  <!-- FOOTER -->
+  <%- include('../partials/footer') %>

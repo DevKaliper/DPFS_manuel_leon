@@ -1,0 +1,125 @@
+<body class="d-flex flex-column min-vh-100 bg-white">
+    <!-- header -->
+    <!-- modal login -->
+    <div class="modal fade bg-gradient-danger" id="login" tabindex="-1" role="dialog" aria-labelledby="login menu" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-white bg-gradient-danger">
+          <div class="modal-header bg-gradient-danger">
+            <h5 class="modal-title" id="exampleModalLabel"><strong>Iniciar Sesión</strong></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="/users/login" method="POST" name="loginForm" class="formUserLogin">
+              <div class="col-12 col-md-6 form-group">
+                <label class="form-label" for="emailL">Email</label>
+                <input id="emailL" type="email" name="email" placeholder="Ingrese su email" class="form-input emailL" required>
+                <small class="errorEmailL error">El EMAIL es obligatorio, no debe contener espacios, debe ser menor a 35 caracteres y formato válido.</small>
+              </div>
+              <div class="col-12 col-md-6 form-group">
+                <label class="form-label" for="passL">Contraseña</label>
+                <input id="passL" type="password" name="pass" max="20" min="8" placeholder="Ingrese su clave" class="form-input passL"  required>
+                <small class="errorPassL error">La CONTRASEÑA no debe tener espacios, contener minimo 8 caracteres y al menos una mayuscula.</small>
+              </div>
+                <% if(errorsL){ %>
+                  <ul>
+                    <% for (let errorL of errorsL.errors ) {%>
+                      <li class="text-danger"><%= errorL.msg  %> </li>
+                      <% } %>
+                    </ul>
+                <% } %>
+
+              <div class="col-12 col-md-6 form-group">
+                <input class="check-control remember" type="checkbox" name="remember" id="remember"> Recordarme
+              </div>
+              <div class="col-12 form-group">
+                <button type="submit" id="submit" class="btn btn-dark">Ingresar</button> ¿Nuevo en MacMasters? Registrate <a href="/users/register" style="text-decoration: underline;">Aquí</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /modal login -->
+    <div class="container p-0 bg-white">
+    <header class="d-lg-flex justify-content-lg-around" style="padding-top: 20px;">
+      <div class="container d-lg-none p-0">
+        <a href="/" class="d-flex justify-content-center flex-grow-1"><img src="/img/logo.png"
+            class="img-fluid logo" alt="logo">
+        </a>
+      </div><br>
+      <nav class="navbar bg-white flex-lg-fill">
+        <!-- logo lg -->
+        <div id="logoLG" class="d-lg-flex order-lg-1 d-none d-xs-none d-sm-none d-md-none">
+          <a href="/"><img src="/img/logo.png" height="130" width="130" alt="logo">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#categorias"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="/img/menu.png" alt="menu" style="filter: invert();">
+        </button>
+        <!-- search -->
+        <form action="/products/search" method="GET" name="searchForm" class="formSearch" class="form-inline my-2 my-lg-0 order-lg-1 flex-md-grow-1 justify-content-center">
+          <input class="form mr-sm-1 p-0 navSearch rounded-lg shadow-lg border" name="q" type="search" placeholder=" Busca tu moto" aria-label="Search">
+          <button class="btn my-2 my-sm-0 rounded-right" type="submit" style="border-color: #6c757d;"><img src="/img/volver.png"/></button>
+        </form>
+        <!-- user -->
+        <% if (frontLogedUser){ %>
+        <div class="dropdown order-lg-1">
+          <a class="" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-display="static"
+            aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn btn-secondary bg-dark my-1 my-lg-0"><%= frontLogedUser.firstName.slice(0,1)  %>
+            </button>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right border-white text-white bg-secondary text-center"
+            aria-labelledby="navbarDropdown">
+            <!-- logout y link perfil-->
+            <button type="" class='btn btn-light mb-1 btn-block '>
+              <a class="text-dark" href="/users/profile/<%=frontLogedUser.id  %>">Perfil</a>
+            </button>
+            <form action="/users/logout" method="POST" class="text-center">
+              <button type="submit" class='btn btn-light btn-block'>Cerrar sesión</button>
+            </form>
+          </div>
+        </div>
+        <% }else{ %>
+        <div class="dropdown order-lg-1 bg-white">
+          <a class="bg-danger" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-display="static"
+            aria-haspopup="true" aria-expanded="false">
+            <button type="button" class="btn btn-secondary bg-white my-1 my-lg-0"><i class="far fa-user text-black-50">Entrar</i></button>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right border-white text-white bg-danger" aria-labelledby="navbarDropdown">
+            <!-- login -->
+            <button type="button" class="btn dropdown-item bg-danger text-white" data-toggle="modal" data-target="#login">Iniciar sesión</button>
+            <!-- register -->
+            <a class="dropdown-item bg-danger text-white" href="/users/register">Registrarse</a>
+          </div>
+        </div>
+        <% } %>
+
+        <button type="button" class="btn btn-secondary bg-danger my-2 my-lg-0 order-lg-1"><a href="/carrito" style="  color: inherit;
+          text-decoration: inherit;"><img style="filter: invert();" src="/img/carrito-de-compras.png" alt="cart"/></a>
+        </button>
+        <div class="collapse navbar-collapse bg-danger order-lg-1 pl-3 rounded-bottom" id="categorias">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/products/list/">Todos las categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/products/list/1">Super deportivas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/products/list/3">Deportivas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/products/list/2">Enduro</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+      </div>
+    </header>
+  </div>
+    <!-- /header -->
