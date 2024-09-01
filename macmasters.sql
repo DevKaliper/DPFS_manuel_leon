@@ -113,7 +113,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `users` (`id`, `email`, `pass`, `firstName`, `lastName`, `avatar`, `rating`, `isAdmin`, `createdAt`, `updatedAt`) VALUES
-(5, 'barfoo@gmail.com', 'passWordRoot1', 'Manuel', 'Leonard', '/motos/r1.png', NULL, 1, '2024-07-20 20:09:34', '2024-07-20 20:09:34');
+(5, 'soyAdmin@gmail.com', '$2b$10$qI4d6vSkJPkpoMg8VjiaX.0RZR4H6Kt49T4LXLwVYEUhMZoy2H5e6', 'Manuel', 'Leonard', '/motos/r1.png', NULL, 1, '2024-07-20 20:09:34', '2024-07-20 20:09:34');
 
 
 ALTER TABLE `articles`
