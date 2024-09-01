@@ -114,7 +114,7 @@ const controller = {
                     description: article.description,
                     createdAt: article.createdAt,
                     updatedAt: article.updatedAt,
-                    urlFirstImg: `/images/instrumentos/${
+                    urlFirstImg: `/img/${
                         JSON.parse(article.image)[0]
                     }`,
                 },
