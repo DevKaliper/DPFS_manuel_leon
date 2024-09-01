@@ -10,7 +10,7 @@ let db = require("../database/models");
 //Multer
 var storage2 = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, path.join(__dirname, "../../public/images/userAvatars"));
+        cb(null, path.join(__dirname, "../../public/img/users"));
     },
     filename: (req, file, cb) => {
         cb(

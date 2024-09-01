@@ -4,10 +4,10 @@
   <%- include('../partials/header') %>
 
 
-  <div class="container bg-white">
+  <div class="container bg-white h-100">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/"><img src="/images/iconos/house.svg" alt="Home" width="20" height="20" title="Home"></a></li>
+        <li class="breadcrumb-item"><a href="/"><img src="/img/house.svg" alt="Home" width="20" height="20" title="Home"></a></li>
         <li class="breadcrumb-item active" aria-current="page"><a href="/products/list/<%=producto.category_id%>"><%= cat %></a></li>
         <% if(subcat != "" ){ %>
           <li class="breadcrumb-item active" aria-current="page"><a href="/products/list/<%=producto.category_id%>"><%= subcat %></a></li>
@@ -33,7 +33,7 @@
                 }
                 %>
             <div class="carousel-item <%=estado%>">
-              <img class="d-block w-100" src="/images/imgInstrumentos/<%=imagenX%>" alt="First slide">
+              <img class="d-block w-100" src="/img/<%=imagenX%>" alt="First slide">
             </div>
 
             <%};%>
@@ -66,7 +66,7 @@
                 display = "d-inline"
                 tachado = "tachado"
               } %>
-                <img src="/img/plata.svg" alt="Home" width="20" height="20" title="Home">
+                <img src="/img/plata.svg" alt="plata" width="20" height="20" title="Home">
                 <h6 class="card-title d-inline">precio de lista: $</h6>
                 <h6 class="card-title d-inline <%=tachado %>"><%=toThousand(producto.price)%> </h6>
                 <br>
@@ -108,7 +108,7 @@
   <div class="modal-dialog modal-dialog-centered " role="document">
     <div class="modal-content  modal-naranja">
       <div class="mt-4 mb-1">
-        <h4 class="modal-center" id="titulo modal">¡Alerta de borrado!</h5>
+        <h4 class="modal-center" id="titulo modal">¡Alerta de borrado!</h4>
       </div>
       <div class="">
         <h6 class="modal-center">Esta seguro que quiere borrar este producto del sitio?</h6>
@@ -122,6 +122,6 @@
     </div>
   </div>
 </div>
-  <footer style="position: absolute; width: 100%; bottom: 0;">
+
     <%- include('../partials/footer') %>
-  </footer>
+

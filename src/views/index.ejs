@@ -48,17 +48,17 @@
             tachado = "tachado"
           }%>
           <div class="col-12 col-sm-6 col-md-6 col-lg-3 py-2">
-            <div class="card text-white bg-secondary mb-3 h-100">
+            <div class="card text-white bg-gradient-danger mb-3 h-100">
               <a href="/products/<%= producto.id %>" style="color: black;">
                 <img class="card-img-top img-fluid" src="/img/<%= image[0] %>" alt="Producto destacado">
                 <div class="card-body " style='height: 9.5rem;'>
                   <h4 class="card-title"><%= producto.name %></h4>
                   <h5 class="card-title text-right <%=tachado %>">$<%= puntoMil(Math.trunc(producto.price)) %></h5>
-                  <h4 class="card-title  <%= display %>"><img src='/images/iconos/etiqueta-de-precio.svg' width='40'>&ensp; $<%=preciofinal%></h4>
+                  <h4 class="card-title  <%= display %>"><img src='/img/venta.png' width='40'>&ensp; $<%=preciofinal%></h4>
                   </div>
               </a>
-              <div class="card-footer bg-light">
-                <a href='/products/list/<%=producto.category_id%>'><small class="text-muted text-capitalize"><%= producto.category.name %></small></a>
+              <div class="card-footer bg-light text-danger">
+                <a href='/products/list/<%=producto.category_id%>'><small class="text-muted text-capitalize text-danger"><%= producto.category.name %></small></a>
               </div>
             </div>
           </div>

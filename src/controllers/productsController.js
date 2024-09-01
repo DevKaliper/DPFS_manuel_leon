@@ -87,7 +87,7 @@ const controller = {
             fs.unlinkSync(
                 path.join(
                     __dirname,
-                    `../../public/images/imgInstrumentos/${image}`
+                    `../../public/img/motos/${image}`
                 )
             )
         );
@@ -129,7 +129,7 @@ const controller = {
                         fs.unlinkSync(
                             path.join(
                                 __dirname,
-                                `../../public/images/imgInstrumentos/${image}`
+                                `../../public/img/motos/${image}`
                             )
                         );
                     }
@@ -145,7 +145,7 @@ const controller = {
                     fs.unlinkSync(
                         path.join(
                             __dirname,
-                            `../../public/images/imgInstrumentos/${image}`
+                            `../../public/img/motos/${image}`
                         )
                     )
                 );
@@ -219,7 +219,7 @@ const controller = {
                     fs.unlinkSync(
                         path.join(
                             __dirname,
-                            `../../public/images/imgInstrumentos/${image}`
+                            `../../public/img/motos/${image}`
                         )
                     );
                 }

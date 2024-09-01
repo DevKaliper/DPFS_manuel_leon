@@ -74,7 +74,7 @@ const controller = {
             if (req.files[0]) {
                 let imagenABorrar = path.join(
                     __dirname,
-                    `../../public/images/userAvatars/${req.files[0].filename}`
+                    `../../public/img/users/${req.files[0].filename}`
                 );
                 fs.unlinkSync(imagenABorrar);
             }
@@ -123,7 +123,7 @@ const controller = {
         res.render("users/userEdit", {
             title: "Editar usuario",
             user
-        }).catch((error) => console.log(error));
+        });
     },
     update: (req, res) => {
         let errors = validationResult(req);
@@ -150,7 +150,7 @@ const controller = {
         // borrar avatar
         var avatarPath = path.join(
             __dirname,
-            `../../public/images/userAvatars/${req.session.logedUser.avatar}`
+            `../../public/img/users/${req.session.logedUser.avatar}`
         );
         await fs.unlinkSync(avatarPath);
         // eliminar cookies y session
