@@ -57,8 +57,11 @@ Ofrecemos un plazo de devolución a partir de la fecha en que la paquetería ent
    - **Motivo para inspirarse**: Ofrece una gran variedad de motocicletas, accesorios y equipo, con un enfoque en la personalización y la satisfacción del cliente.
    - **Fuente**: [Motorcycle Superstore](https://www.motorcyclesuperstore.com)
 
----
+
 
   
 
-     ### Enlace al Tablero de trabajo -> https://trello.com/invite/b/66f18f538ef6714c8601c0b6/ATTI953185a2fa176afd2845e24b00ac68e619B18BB8/macmasters
+     ### Enlace al Tablero de trabajo -> https://trello.com/invite/b/66f18f538ef6714c8601c0b6/ATTI953185a2fa176afd2845e24b00ac68e619B18BB8/macmasters ###
+     
+     ![image](https://github.com/user-attachments/assets/eb003f6f-c497-486f-b265-ed8c609f00e5)
+
